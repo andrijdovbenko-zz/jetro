@@ -1,0 +1,80 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1000px) {
+	.features h4{
+		font-size: 22px;
+	    margin: 0 0 0 15px;
+	}
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 800px) {
+	.features .container>div{
+		margin-bottom: 25px;
+	}
+
+	body footer .container{
+		background-color: #E7663C;
+	}
+
+	footer .container>div{
+		height: auto;
+	}
+
+	.about_jetro, .twitter_widget, .contact_us{
+		padding: 5px 15px;
+	}
+
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 530px) {
+	#slider .desription{
+		width: auto;
+		left: 0
+	}
+
+	header nav{
+		display: none;
+		background-color: #E7663C;
+		color: white;
+		position: absolute;
+		right: 15px;
+		top: 35px;
+		z-index: 5;
+	}
+
+	header nav a, header nav a.active{
+		display: block;
+		color: white;
+		margin-left: 5px;
+		padding: 3px 25px;
+	}
+
+	header nav a.active{
+		text-decoration: underline;
+	}
+
+	header nav a:hover{
+		text-decoration: underline;
+		color: white;
+	}
+
+	#navigation{
+		display: inline-block;
+	}
+
+	main .recent_works .item h5{
+		font-size: 18px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+    
