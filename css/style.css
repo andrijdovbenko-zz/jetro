@@ -138,7 +138,7 @@ main .container{
 /*thumbnails*/
 
 .thumbnail{
-	height: 120px;
+	height: auto;
 	background-color: #e8663c;
 	margin-top: 18px;
 	padding: 0;
@@ -147,7 +147,7 @@ main .container{
 
 .thumbnail img{
 	width: 100%;
-	height: 100%;
+	height: auto;
 }
 
 /*features*/
@@ -258,7 +258,7 @@ main .container{
 .recent_works .item h5 {
     color: #b6b6b6;
     font-size: 22px;
-    margin: 10px 0 0 14px;
+    margin: 10px 14px 0 14px;
 }
 
 .recent_works .item p {

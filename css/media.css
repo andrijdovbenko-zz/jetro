@@ -15,6 +15,11 @@
 		margin-bottom: 25px;
 	}
 
+	body .recent_works .item_4>div{
+		background-position: 100% 100%;
+		background-size: cover;
+	}
+
 	body footer .container{
 		background-color: #E7663C;
 	}
@@ -71,6 +76,7 @@
 	main .recent_works .item h5{
 		font-size: 18px;
 	}
+	
 }
 
 /* Extra Small Devices, Phones */
