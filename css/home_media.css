@@ -1,0 +1,42 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1000px) {
+	.features h4{
+		font-size: 22px;
+	    margin: 0 0 0 15px;
+	}
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 800px) {
+	.features .container>div{
+		margin-bottom: 25px;
+	}
+
+	body .recent_works .item_4>div{
+		background-position: 100% 100%;
+		background-size: cover;
+	}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 530px) {
+	#slider .desription{
+		width: auto;
+		left: 0
+	}
+
+	main .recent_works .item h5{
+		font-size: 18px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 360px) {
+	main .recent_works .item{
+		min-height: 260px;
+	}
+}
+    

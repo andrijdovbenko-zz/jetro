@@ -1,0 +1,290 @@
+.title{
+	margin-bottom: 25px;
+}
+
+.title .container-fluid>div{
+	background-image: url('../img/bg-main.png');
+	background-repeat: repeat-x;
+}
+
+.title .container{
+	background-color: white;
+}
+
+.title h2{
+	color: white;
+	background-color: #E8603C;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 60px;
+	padding-left: 20px;
+	letter-spacing: 1px;
+}
+
+main section{
+	padding-right: 34px;
+}
+
+main section>article{
+	background-image: url('../img/line_blog.png');
+	background-position: bottom;
+	background-repeat: repeat-x;
+	padding-bottom: 48px;
+	margin-top: 50px;
+	position: relative;
+}
+
+main section>article:first-child{
+	margin-top: 0;
+}
+
+/*post_1 slider*/
+
+article .post_icon{
+	width: 75px;
+	height: 75px;
+	background-color: #E8603C;
+	position: absolute;
+	top: 0;
+	left: -85px;
+	z-index: 10;
+	display: inline-block;
+}
+
+#post_1 .post_icon{
+	background-image: url(../img/post-icon_1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#slider{
+	position: relative;
+}
+
+.slide{
+	height: 300px;
+	background-position: -75px -72px;
+}
+
+#slide_1{
+	background-image: url('../img/bg-slide_2.png');
+}
+
+#slide_2{
+	background-image: url('../img/bg-slide_1.png');
+}
+
+#slider .owl-prev, #slider .owl-next{
+	position: absolute;
+}
+
+#slider .owl-prev{
+	left: 18px;
+    top: 125px;
+}
+
+#slider .owl-next{
+	right: 18px;
+    top: 125px;
+}
+
+.stats{
+	width: 150px;
+	display: inline-block;
+	float: left;
+	padding-top: 18px;
+	padding-left: 1px;
+}
+
+.stats h5{
+	font-size: 17px;
+	margin: 3px 0;
+	color: #F15F36;
+}
+
+.stats p{
+	font-size: 12px;
+	color: grey;
+}
+
+.article{
+	display: inline-block;
+	width: calc(100% - 150px);
+}
+
+.article h3{
+	color: #F15F36;
+}
+
+.article p{
+	color: grey;
+	font-size: 12px;
+	line-height: 19px;
+	margin-bottom: 15px;
+}
+
+/*post 2*/
+
+#post_2>div:first-child{
+	height: 300px;
+	background-image: url('../img/bg-post_2.png');
+	background-position: -23px -11px;
+	margin-bottom: 1px;
+}
+
+#post_2 .post_icon{
+	background-image: url(../img/post-icon_2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*post 3*/
+
+#post_3>div:first-child{
+	width: 100%;
+	height: 300px;
+}
+
+#post_3 iframe{
+	width: 100%;
+	height: 100%;
+}
+
+#post_3 .post_icon{
+	background-image: url(../img/post-icon_3.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*post 4*/
+
+#post_4 div:first-child{
+	min-height: 75px;
+	background-color: #F2F2F2;
+	color: black;
+	font-style: italic;
+	padding: 17px 10px 10px 75px;
+	position: relative;
+}
+
+#post_4 p{
+	font-size: 12px;
+	line-height: 19px;
+	display: inline-block;
+}
+
+#post_4 span{
+	font-size: 24px;
+	position: absolute;
+	left: 35px;
+	top: 7px;
+}
+
+#post_4 .post_icon{
+	background-image: url(../img/post-icon_4.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*post 5*/
+
+#post_5 h3{
+	color: #F15F36;
+	margin: 0;
+}
+
+#post_5 span{
+	color: grey;
+	font-size: 12px;
+}
+
+#post_5 p{
+	font-size: 12px;
+	line-height: 18px;
+	margin: 18px 2px 0 0;
+	color: grey;
+}
+
+#post_5 .post_icon{
+	background-image: url(../img/post-icon_5.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*pagination*/
+
+.pages{
+	margin-top: 60px;
+}
+
+.pages span{
+	display: inline-block;
+	background-color: #f3b29d;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	color: white;
+	font-family: BebasNeue;
+	text-align: center;
+	font-size: 17px;
+	color: white;
+}
+
+.pages span.active, .pages span:hover{
+	background-color: #E8663C;
+}
+
+/*aside*/
+
+aside h4{
+	color: #F15F36;
+	font-size: 17px;
+	margin: 0 0 13px 0;
+	background-image: url('../img/line_blog.png');
+	background-repeat: repeat-x;
+	background-position: center;
+}
+
+aside h4 span{
+	background-color: white;
+	display: inline-block;
+	padding-right: 15px;
+}
+
+aside p{
+	margin: 0;
+	font-size: 12px;
+	line-height: 13px;
+	color: grey;
+}
+
+aside p a{
+	color: grey;
+	line-height: 15px;
+}
+
+aside>div>div{
+	margin-top:30px;
+}
+
+aside>div>div:first-child{
+	margin-top:0;
+}
+
+aside p a:hover{
+	color: #F15F36;
+}
+
+.photo_gallery>div{
+	margin-left: -7px;
+}
+
+.photo_gallery .photo{
+	height: 47px;
+	background-color: #f3af9d;
+	box-sizing: border-box;
+	border:1px solid #F15F36;
+	margin: 0 0 6px 6px;
+	width: 47px;
+	display: inline-block;
+}
