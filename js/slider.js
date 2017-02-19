@@ -9,4 +9,6 @@ $(document).ready(function(){
 
 	$('.owl-prev').html('<img src="img/prev.png" alt="prev">');
 	$('.owl-next').html('<img src="img/next.png" alt="next">');
+
+	
 });

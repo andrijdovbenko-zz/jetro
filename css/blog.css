@@ -76,6 +76,11 @@ article .post_icon{
 
 #slider .owl-prev, #slider .owl-next{
 	position: absolute;
+	opacity: 0.7;
+}
+
+#slider .owl-prev:hover, #slider .owl-next:hover{
+	opacity: 1.0;
 }
 
 #slider .owl-prev{
@@ -234,57 +239,42 @@ article .post_icon{
 	background-color: #E8663C;
 }
 
-/*aside*/
+/*media queries*/
 
-aside h4{
-	color: #F15F36;
-	font-size: 17px;
-	margin: 0 0 13px 0;
-	background-image: url('../img/line_blog.png');
-	background-repeat: repeat-x;
-	background-position: center;
+@media only screen and (max-width : 800px) {
+	main section{
+		padding-right: 0;
+	}
 }
 
-aside h4 span{
-	background-color: white;
-	display: inline-block;
-	padding-right: 15px;
+@media only screen and (max-width : 530px) {
+	.slide, #post_2>div:first-child{
+		background-size: cover;
+		background-position: center;
+	}
+
+	.stats{
+		width: 100%;
+		display: block;
+		float: none;
+		padding-top: 18px;
+		padding-left: 1px;
+	}
+
+	.stats>div{
+		display: inline-block;
+		width: 32%;
+	}
+
+	.article{
+		display: block;
+		width: 100%;
+	}
 }
 
-aside p{
-	margin: 0;
-	font-size: 12px;
-	line-height: 13px;
-	color: grey;
-}
-
-aside p a{
-	color: grey;
-	line-height: 15px;
-}
-
-aside>div>div{
-	margin-top:30px;
-}
-
-aside>div>div:first-child{
-	margin-top:0;
-}
-
-aside p a:hover{
-	color: #F15F36;
-}
-
-.photo_gallery>div{
-	margin-left: -7px;
-}
-
-.photo_gallery .photo{
-	height: 47px;
-	background-color: #f3af9d;
-	box-sizing: border-box;
-	border:1px solid #F15F36;
-	margin: 0 0 6px 6px;
-	width: 47px;
-	display: inline-block;
+@media only screen and (max-width : 400px) {
+	.stats>div{
+		display: block;
+		width: 100%;
+	}
 }
