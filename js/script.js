@@ -8,11 +8,11 @@
     /*filter*/
 
 
-    $('main nav a[data-filter]').click(function(event){
+    $('main .filter span[data-filter]').click(function(event){
     	let attr = $(event.target).attr("data-filter");
 
-            $('main nav a').removeClass('active');
-            $('main nav a[data-filter="' + attr + '"]').addClass("active");
+            $('main .filter span').removeClass('active');
+            $('main .filter span[data-filter="' + attr + '"]').addClass("active");
             $('.works .item').parent().hide();
 
         if (attr == 'all'){

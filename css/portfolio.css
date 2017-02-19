@@ -21,12 +21,12 @@
 	letter-spacing: 1px;
 }
 
-main nav{
+main .filter{
 	padding-top: 10px;
 	margin-bottom: 38px;
 }
 
-main nav a{
+main .filter span{
 	background-color: transparent;
 	color: grey;
 	display: inline-block;
@@ -38,11 +38,12 @@ main nav a{
 	text-transform: uppercase;
 }
 
-main nav a:hover{
+main .filter span:hover{
 	color: #e8603c;
+	cursor: pointer;
 }
 
-main nav a.active{
+main .filter span.active{
 	background-color: #e8603c;
 	color: white;
 }
