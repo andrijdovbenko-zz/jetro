@@ -1,15 +1,16 @@
 
-	/*nav on small divices*/
+$(document).ready(function(){
+    /*nav on small divices*/
 
     $("#navigation").click(function(){
-    	$("header nav").slideToggle("fast");
+        $("header nav").slideToggle("fast");
     });
 
     /*filter*/
 
 
     $('main .filter span[data-filter]').click(function(event){
-    	let attr = $(event.target).attr("data-filter");
+        let attr = $(event.target).attr("data-filter");
 
             $('main .filter span').removeClass('active');
             $('main .filter span[data-filter="' + attr + '"]').addClass("active");
@@ -23,3 +24,7 @@
         }
 
      });
+
+    
+});
+	
