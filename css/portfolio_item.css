@@ -1,0 +1,30 @@
+.title{
+	margin-bottom: 25px;
+}
+
+.title .container-fluid>div{
+	background-image: url('../img/bg-main.png');
+	background-repeat: repeat-x;
+}
+
+.title .container{
+	background-color: white;
+}
+
+.title h2{
+	color: white;
+	background-color: #E8603C;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 60px;
+	padding-left: 20px;
+	letter-spacing: 1px;
+}
+
+.item_details .main_img{
+	width: 100%;
+	height: 400px;
+	background-image: url('../img/item_4.png');
+	background-size: cover;
+	background-position: 0px -11px;
+}
