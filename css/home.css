@@ -138,6 +138,10 @@ main .container{
 	margin-top: 31px;
 }
 
+.recent_works a:hover{
+	text-decoration: none;
+}
+
 .recent_works h4{
 	color: #F15F36;
 	font-size: 24px;
